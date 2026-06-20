@@ -61,7 +61,8 @@ Produce a markdown document with this structure:
 ## Rules for the output
 
 - Phases are numbered from 1.
-- Chunks are numbered as Phase.Chunk (e.g. 1.1, 1.2, 2.1).
+- Chunks are numbered as Phase.Chunk (e.g. 1.1, 1.2, 2.1). The user may ask you to insert a phase 0 or a chunk zero (e.g 3.0 as the first chunk in phase 3).
+- If a chunk has to be split later on then use 1.2a, 1.2b etc.
 - All bullet points within chunks use `* [ ]` so they can be checked off as work progresses.
 - Every chunk must be small enough to be a single focused commit, and must leave all tests passing — the codebase is always in a working state after each chunk.
 - Tests come before implementation in each chunk (TDD order).
