@@ -1,0 +1,15 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Roadmap-driven development",
+      "description": "Plan a feature into commit-sized chunks, then implement and review one chunk at a time — plan with the best model, implement with a cheaper one, review with a different capable one.",
+      "skills": [
+        "roadmap",
+        "implement-chunk",
+        "review-chunk"
+      ]
+    }
+  ]
+}

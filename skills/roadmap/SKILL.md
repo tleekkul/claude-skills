@@ -1,8 +1,8 @@
 ---
+name: roadmap
 description: Plan a feature as phases and commit-sized chunks
-argument-hint: [goal description]
-model: opus
-allowed-tools: Read, Glob, Grep, Bash(git:*)
+metadata:
+  author: Kirit Sælensminde
 ---
 
 You are producing a structured implementation roadmap for the following goal:

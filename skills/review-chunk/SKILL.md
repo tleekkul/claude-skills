@@ -1,8 +1,8 @@
 ---
+name: review-chunk
 description: Review the work done for a single roadmap chunk
-argument-hint: <roadmap-path> <chunk-id>
-model: opus
-allowed-tools: Read, Glob, Grep, Bash
+metadata:
+  author: Kirit Sælensminde
 ---
 
 You are reviewing the work done for a single chunk from a roadmap document produced by the `roadmap` skill — typically the chunk just built by the `implement-chunk` skill.

@@ -1,8 +1,8 @@
 ---
+name: implement-chunk
 description: Implement a single roadmap chunk following TDD
-argument-hint: <roadmap-path> [chunk-id]
-model: opus
-allowed-tools: Read, Glob, Grep, Edit, Write, Bash
+metadata:
+  author: Kirit Sælensminde
 ---
 
 You are implementing a single chunk from a roadmap document produced by the `roadmap` skill.
